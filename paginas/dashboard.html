@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzaria da Malu - Cardápio</title>
+    <link rel="stylesheet" href="../css/dashboard.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+        
+            <img src="../img/download.png" alt="Logo" class="logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="./dashboard.html">Cardápio</a></li>
+                <li><a href="./cadastro_cliente.html">Cadastrar Cliente</a></li>
+                <li><a href="./cadastro_cardapio.html">Cadastrar Pizza</a></li>
+                <li><a href="../index.html">Sair</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre">
+            <h1>Bem-vindo à Pizzaria da Malu!</h1>
+            <p>O melhor lugar para saborear as pizzas mais deliciosas.</p>
+        </section>
+
+        <section id="cardapio">
+            <h2>Cardápio</h2>
+            <div class="pizza-container">
+                <!-- Pizza 1 -->
+                <div class="pizza-item">
+                    <img src="../img/Pizza-Marguerita.png" alt="Pizza Marguerita">
+                    <h3>Pizza Marguerita</h3>
+                    <p>Molho de tomate, mussarela, tomate e manjericão fresco.</p>
+                    <p><strong>R$ 29,90</strong></p>
+                    <button class="add-to-cart">Adicionar ao Carrinho</button>
+                </div>
+                
+                <!-- Pizza 2 -->
+                <div class="pizza-item">
+                    <img src="../img/Pizza-Calabresa.png" alt="Pizza Calabresa">
+                    <h3>Pizza Calabresa</h3>
+                    <p>Molho de tomate, mussarela, calabresa e azeitonas.</p>
+                    <p><strong>R$ 34,90</strong></p>
+                    <button class="add-to-cart">Adicionar ao Carrinho</button>
+                </div>
+                
+                <!-- Pizza 3 -->
+                <div class="pizza-item">
+                    <img src="../img/Pizza-Frango.png" alt="Pizza Frango com Catupiry">
+                    <h3>Pizza Frango com Catupiry</h3>
+                    <p>Molho de tomate, mussarela, frango desfiado e catupiry.</p>
+                    <p><strong>R$ 39,90</strong></p>
+                    <button class="add-to-cart">Adicionar ao Carrinho</button>
+                </div>
+                
+                <!-- Pizza 4 -->
+                <div class="pizza-item">
+                    <img src="../img/PIZZA-PORTUGUESA.jpeg" alt="Pizza Portuguesa">
+                    <h3>Pizza Portuguesa</h3>
+                    <p>Molho de tomate, mussarela, presunto, ovo, azeitona e cebola.</p>
+                    <p><strong>R$ 42,90</strong></p>
+                    <button class="add-to-cart">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+        </section>
+
+        
+        <section id="carrinho">
+            <h2>Carrinho de Compras</h2>
+            <ul id="cart-items">
+            </ul>
+            <p>Total: R$ <span id="total">0,00</span></p>
+            <button id="finalizar">Finalizar Pedido</button>
+        </section>
+    </main>
+
+    <footer>
+    </footer>
+</body>
+</html>
+
+
+
